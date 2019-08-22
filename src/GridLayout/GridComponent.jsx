@@ -8,9 +8,9 @@ const GridComponent = () => {
     return(
         <GridWrapper>
 
-            <HeaderGrid>header</HeaderGrid>
-            <ContentGrid>content</ContentGrid>
-            <FooterGrid>footer</FooterGrid>
+            <HeaderGrid></HeaderGrid>
+            <ContentGrid></ContentGrid>
+            <FooterGrid></FooterGrid>
 
         </GridWrapper>
     )
