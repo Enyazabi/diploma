@@ -4,6 +4,7 @@ import {HeaderGrid} from "./HeaderGrid.styled";
 import {ContentGrid} from "./ContentGrid.styled";
 import {FooterGrid} from "./FooterGrid.styled";
 import HeaderComponent from "../Components/HeaderComponent";
+import FooterComponent from "../Components/FooterComponent";
 
 const GridComponent = () => {
     return(
@@ -12,7 +13,9 @@ const GridComponent = () => {
                 <HeaderComponent/>
             </HeaderGrid>
             <ContentGrid></ContentGrid>
-            <FooterGrid></FooterGrid>
+            <FooterGrid>
+                <FooterComponent/>
+            </FooterGrid>
 
         </GridWrapper>
     )

@@ -3,7 +3,11 @@ import {Footer} from "./Footer.styled";
 
 const FooterComponent = () => {
   return(
-      <Footer>©</Footer>
+      <Footer>©
+          {
+              (new Date).getFullYear()
+          }
+      </Footer>
 
   )
 };

@@ -1,5 +1,4 @@
 import * as React from 'react';
-
 import { Button } from "../UI/Controls/Buttons.styled";
 import {UserIcon} from "../UI/Icon.styled";
 import { AdminIcon } from "../UI/Icon.styled";
