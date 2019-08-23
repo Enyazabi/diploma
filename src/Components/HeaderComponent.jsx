@@ -6,8 +6,6 @@ import {Header} from "./Header.styled";
 import {NavWrapper} from "./NavWrapper.styled";
 import {Label} from "../UI/Label.styled";
 
-
-
 const HeaderComponent = (option) => {
     return(
         <Header>

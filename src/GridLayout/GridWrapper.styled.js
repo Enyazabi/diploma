@@ -9,5 +9,4 @@ grid-template-areas:
     "header"
     "content"
     "footer";
-    
-   `;
+`;

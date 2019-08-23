@@ -4,7 +4,6 @@ export const UserIcon = styled.div`
     background: url('/User_logo.png');
     width: 66px;
     height: 62px;
-    
 `;
 
 export const AdminIcon = styled(UserIcon)`
