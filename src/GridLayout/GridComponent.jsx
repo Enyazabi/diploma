@@ -13,7 +13,6 @@ const GridComponent = () => {
             </HeaderGrid>
             <ContentGrid></ContentGrid>
             <FooterGrid></FooterGrid>
-
         </GridWrapper>
     )
 };

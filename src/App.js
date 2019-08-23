@@ -7,7 +7,6 @@ function App() {
 
         <div className="App">
             <GridComponent/>
-
             <HeaderComponent isAdmin={false} />
         </div>
     );
