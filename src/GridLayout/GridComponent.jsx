@@ -16,7 +16,6 @@ const GridComponent = () => {
             <FooterGrid>
                 <FooterComponent/>
             </FooterGrid>
-
         </GridWrapper>
     )
 };
