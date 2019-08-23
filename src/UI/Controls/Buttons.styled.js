@@ -11,7 +11,7 @@ export const Button = styled.button`
     outline: none;
     align-items: flex-end;
     text-align: justify;
-    
+   
     cursor: pointer;
 
     color: ${(props) => (props.variant==='signUp'?'white':'#1945E4')};
