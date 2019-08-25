@@ -5,18 +5,24 @@ import {ContentGrid} from "./ContentGrid.styled";
 import {FooterGrid} from "./FooterGrid.styled";
 import HeaderComponent from "../Components/HeaderComponent";
 import FooterComponent from "../Components/FooterComponent";
+import HomePageComponent from "../Components/HomePageComponent";
+import { BrowserRouter, Route } from "react-router-dom";
 
 const GridComponent = () => {
     return(
-        <GridWrapper>
-            <HeaderGrid>
-                <HeaderComponent/>
-            </HeaderGrid>
-            <ContentGrid></ContentGrid>
-            <FooterGrid>
-                <FooterComponent/>
-            </FooterGrid>
-        </GridWrapper>
+        <BrowserRouter>
+            <GridWrapper>
+                <HeaderGrid>
+                    <HeaderComponent/>
+                </HeaderGrid>
+                <ContentGrid>
+                    <Route exact path ="/" component = {HomePageComponent}/>
+                </ContentGrid>
+                <FooterGrid>
+                    <FooterComponent/>
+                </FooterGrid>
+            </GridWrapper>
+        </BrowserRouter>
     )
 };
 
