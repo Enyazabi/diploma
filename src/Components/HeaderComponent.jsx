@@ -14,12 +14,7 @@ const HeaderComponent = (option) => {
                 <Button> Home </Button>
                 <Button> Tests </Button>
                 <Button> Users </Button>
-                {
-                    option.isAdmin?
-                        <AdminIcon/>
-                        :
-                        <UserIcon/>
-                }
+                {option.isAdmin? <AdminIcon/> : <UserIcon/>}
             </NavWrapper>
         </Header>
 

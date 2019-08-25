@@ -20,3 +20,21 @@ export const Button = styled.button`
     :active {
         color: grey;
 `;
+
+export const ButtonStart = styled.button`
+    grid-area: button;
+    width: 350px;
+    height: 65px;
+    background: #1945E4;
+    mix-blend-mode: normal;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    outline: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFAFA;
+    cursor: pointer;
+`;
